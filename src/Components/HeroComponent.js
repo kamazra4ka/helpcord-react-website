@@ -20,9 +20,9 @@ const HeroComponent = () => {
                     <div className="btn btn-blue-9">✅ SUPPORTED</div>
                 </div>
             </div>
-            <div className="main-container">
+            <div style={{ gap: '6em' }} className="main-container">
                 <img className="preview-image" src={previewImage}></img>
-                <div className="title-container">
+                <div style={{ paddingRight: '3em' }} className="title-container">
                     <h1>ONE BOT FOR<br/>EVERYTHING</h1>
                 </div>
             </div>

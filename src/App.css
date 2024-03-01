@@ -49,7 +49,7 @@ body {
     justify-content: center;
     align-items: center;
     flex-direction: row;
-    gap: calc(4rem + 0.5vw);
+    gap: 6em;
     margin-top: 8em;
 
 }
@@ -115,4 +115,49 @@ body {
     max-width: 800px;
     height: auto;
     border-radius: 10px;
+}
+
+/* Call To Action + Footer */
+
+.call-to-action-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 1em;
+    margin-top: 8em;
+}
+
+.call-to-action-text {
+    color: #FFF;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-family: "ROG", sans-serif;
+    font-size: calc(1.2rem + 0.5vw);
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.call-to-action-buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1em;
+}
+
+.btn-discord {
+    background: #5865F2;
+    max-width: 20em;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25)
+}
+
+.btn-discord:hover {
+    filter: brightness(110%);
+    cursor: pointer;
+}
+
+.btn-github {
+    background: #001C41;
+    max-width: 20em;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
 }
