@@ -5,11 +5,18 @@
     font-style: normal;
 }
 
+* {
+    text-decoration: none;
+}
+
 body {
     margin: 0;
     background: linear-gradient(180deg, #020e1e 0%, #000A1D 100%);
     font-family: 'ROG', sans-serif;
     font-size: calc(1em + 0.5vw);
+    text-decoration: none;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
 }
 
 .navbar-container {
