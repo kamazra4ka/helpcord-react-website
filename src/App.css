@@ -9,14 +9,14 @@ body {
     margin: 0;
     background: linear-gradient(180deg, #001C41 0%, #000A1D 100%);
     font-family: 'ROG', sans-serif;
-    height: 100vh;
+    font-size: calc(1em + 0.5vw);
 }
 
 .navbar-container {
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 20px 40px;
+    padding: 2vh 5vw;
     user-select: none;
 }
 
@@ -24,7 +24,7 @@ body {
     color: #FFF;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     font-family: "ROG";
-    font-size: 28px;
+    font-size: calc(1rem + 0.5vw);
     font-style: normal;
     font-weight: 400;
     line-height: normal;
@@ -50,7 +50,7 @@ body {
     align-items: center;
     flex-direction: row;
     gap: 4em;
-    margin-top: 20px;
+    margin-top: 8em;
 
 }
 
@@ -64,13 +64,15 @@ body {
 
 .btn {
     border-radius: 10px;
-    width: 12em;
+    width: auto;
+    max-width: 13em;
+    padding: 0.5em 1em;
     height: 3em;
     flex-shrink: 0;
     filter: drop-shadow(0px 4px 0px #001C41);
     color: rgba(255, 255, 255, 0.85);
     font-family: "ROG Fonts", sans-serif;
-    font-size: 1.25em;
+    font-size: 0.8em;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
@@ -100,8 +102,8 @@ body {
 
 .title-container {
     color: #FFF;
-    text-shadow: 0px 4px 1px rgba(255, 255, 255, 0.65);
-    font-family: "ROG";
+    text-shadow: 0px 4px 1px rgba(255, 255, 255, 0.37);
+    font-family: "ROG", sans-serif;
     font-size: 26px;
     font-style: normal;
     font-weight: 400;
