@@ -1,4 +1,5 @@
 import React from 'react';
+import previewImage from '../assets/preview.png';
 
 const HeroComponent = () => {
     return (
@@ -17,6 +18,12 @@ const HeroComponent = () => {
                     <div className="btn btn-blue-3">📊 ANALYTICS</div>
                     <div className="btn btn-blue-6">🎮 LOUNGES</div>
                     <div className="btn btn-blue-9">✅ SUPPORTED</div>
+                </div>
+            </div>
+            <div className="main-container">
+                <img className="preview-image" src={previewImage}></img>
+                <div className="title-container">
+                    <h1>ONE BOT FOR<br/>EVERYTHING</h1>
                 </div>
             </div>
         </div>
