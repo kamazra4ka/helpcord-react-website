@@ -49,7 +49,7 @@ body {
     justify-content: center;
     align-items: center;
     flex-direction: row;
-    gap: 6em;
+    gap: calc(4rem + 0.5vw);
     margin-top: 8em;
 
 }
