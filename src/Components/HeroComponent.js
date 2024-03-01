@@ -8,6 +8,9 @@ const HeroComponent = () => {
                 <div className="title-container">
                     <h1>SIMPLE.<br/>USEFUL.<br/>MULTIPURPOSE.</h1>
                 </div>
+                <div className="title-container-mobile">
+                    <h1>SIMPLE.<br/>USEFUL.<br/>MULTIPURPOSE.</h1>
+                </div>
                 <div className="buttons-container">
                     <div className="btn btn-blue-1">🔒 SECURITY</div>
                     <div className="btn btn-blue-4">✨ FUN</div>
@@ -20,7 +23,7 @@ const HeroComponent = () => {
                     <div className="btn btn-blue-9">✅ SUPPORTED</div>
                 </div>
             </div>
-            <div style={{ gap: '6em' }} className="main-container">
+            <div style={{gap: '6em'}} className="main-container">
                 <img className="preview-image" src={previewImage}></img>
                 <div style={{ paddingRight: '3em' }} className="title-container">
                     <h1>ONE BOT FOR<br/>EVERYTHING</h1>
