@@ -3,6 +3,7 @@ import './App.css';
 import NavbarComponent from "./Components/NavbarComponent";
 import HeroComponent from "./Components/HeroComponent";
 import CallToActionComponent from "./Components/CallToActionComponent";
+import FooterComponent from "./Components/FooterComponent";
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
         <NavbarComponent />
         <HeroComponent />
         <CallToActionComponent />
+        <FooterComponent />
     </div>
   );
 }
