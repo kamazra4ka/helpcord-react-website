@@ -5,7 +5,7 @@ const CallToActionComponent = () => {
         <div>
             <div className="call-to-action-container">
                 <div className="call-to-action-text">
-                    <h1 style={{ marginBlockEnd: 0 }}>ARE YOU READY?</h1>
+                    <h1 style={{ marginBlockEnd: 0 }}>BEGIN YOUR<br></br>JOURNEY NOW</h1>
                 </div>
                 <div className="call-to-action-buttons">
                     <div className="btn btn-discord">🔒 START USING HELPCORD</div>
