@@ -91,21 +91,34 @@ body {
     text-align: center;
 
     user-select: none;
+    animation: fadeIn 1s ease forwards;
 }
 
-.btn-blue-1 { background: #012555; }
-.btn-blue-2 { background: #08274F; }
-.btn-blue-3 { background: #144079; }
-.btn-blue-4 { background: #052958; }
-.btn-blue-5 { background: #032A5C; }
-.btn-blue-6 { background: #032551; }
-.btn-blue-7 { background: #09418A; }
-.btn-blue-8 { background: #06326B; }
-.btn-blue-9 { background: #062143; }
+.btn-blue-1 { background: #012555; animation-delay: 0.19s; }
+.btn-blue-2 { background: #08274F; animation-delay: 0.2s; }
+.btn-blue-3 { background: #144079; animation-delay: 0.3s; }
+.btn-blue-4 { background: #052958; animation-delay: 0.49s; }
+.btn-blue-5 { background: #032A5C; animation-delay: 0.5s; }
+.btn-blue-6 { background: #032551; animation-delay: 0.6s; }
+.btn-blue-7 { background: #09418A; animation-delay: 0.79s; }
+.btn-blue-8 { background: #06326B; animation-delay: 0.8s; }
+.btn-blue-9 { background: #062143; animation-delay: 0.9s; }
 
 .btn:hover {
     filter: brightness(110%);
 }
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
 
 .title-container {
     color: #FFF;
