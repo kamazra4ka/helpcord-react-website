@@ -15,7 +15,7 @@ const buttons = [
 
 const HeroComponent = () => {
     return (
-        <div>
+        <>
             <div className="main-container">
                 <div className="title-container">
                     <h1>SIMPLE.<br/>USEFUL.<br/>MULTIPURPOSE.</h1>
@@ -35,7 +35,7 @@ const HeroComponent = () => {
                     <h1>ONE BOT FOR<br/>EVERYTHING</h1>
                 </div>
             </div>
-        </div>
+        </>
     );
 };
 
