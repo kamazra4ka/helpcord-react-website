@@ -5,9 +5,7 @@ const FooterComponent = () => {
     return (
         <div>
             <a href="/#" className="footer-container">
-                <img className="navbar-container-logo" src={logo} alt='logo'>
-
-                </img>
+                <img className="navbar-container-logo" src={logo} alt="logo"/>
                 <div className="navbar-container-text">HELPCORD</div>
             </a>
         </div>

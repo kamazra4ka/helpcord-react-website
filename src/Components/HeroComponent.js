@@ -29,9 +29,9 @@ const HeroComponent = () => {
                     ))}
                 </div>
             </div>
-            <div style={{gap: '6em'}} className="main-container">
+            <div className="main-container gap">
                 <img className="preview-image" src={previewImage}></img>
-                <div style={{ paddingRight: '3em' }} className="title-container">
+                <div style={{paddingRight: '3em'}} className="title-container">
                     <h1>ONE BOT FOR<br/>EVERYTHING</h1>
                 </div>
             </div>

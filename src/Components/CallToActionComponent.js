@@ -7,7 +7,7 @@ const CallToActionComponent = () => {
         <div>
             <div className="call-to-action-container">
                 <div className="call-to-action-text">
-                    <h1 style={{ marginBlockEnd: 0 }}>BEGIN YOUR<br></br>JOURNEY NOW</h1>
+                    <h1 className="call-to-action-heading">BEGIN YOUR<br/>JOURNEY NOW</h1>
                 </div>
                 <div className="call-to-action-buttons">
                     <a href="https://canary.discord.com/api/oauth2/authorize?client_id=1212373212697071616&permissions=68152540393175&scope=applications.commands%20bot" className="btn btn-discord"><img src={discordLogo}></img> START USING HELPCORD</a>

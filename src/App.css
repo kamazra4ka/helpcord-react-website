@@ -117,6 +117,10 @@ body {
     animation: fadeIn 1s ease forwards;
 }
 
+.gap {
+    gap: 6em;
+}
+
 .btn-blue-1 { background: var(--btn-blue-1-color); animation-delay: var(--btn-blue-1-delay); }
 .btn-blue-2 { background: var(--btn-blue-2-color); animation-delay: var(--btn-blue-2-delay); }
 .btn-blue-3 { background: var(--btn-blue-3-color); animation-delay: var(--btn-blue-3-delay); }
@@ -155,6 +159,10 @@ body {
 }
 
 /* Call To Action + Footer */
+
+.call-to-action-heading {
+    margin-block-end: 0;
+}
 
 .call-to-action-container {
     display: flex;
