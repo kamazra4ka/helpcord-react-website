@@ -1,6 +1,18 @@
 import React from 'react';
 import previewImage from '../assets/preview.png';
 
+const buttons = [
+    { id: 1, color: 'btn-blue-1', text: '🔒 SECURITY' },
+    { id: 2, color: 'btn-blue-4', text: '✨ FUN' },
+    { id: 3, color: 'btn-blue-7', text: '🌐 OPEN SOURCE' },
+    { id: 4, color: 'btn-blue-2', text: '💹 ECONOMY' },
+    { id: 5, color: 'btn-blue-5', text: '🚀 XP SYSTEM' },
+    { id: 6, color: 'btn-blue-8', text: '🤖 AI POWERED' },
+    { id: 7, color: 'btn-blue-3', text: '📊 ANALYTICS' },
+    { id: 8, color: 'btn-blue-6', text: '🎮 LOUNGES' },
+    { id: 9, color: 'btn-blue-9', text: '✅ SUPPORTED' },
+];
+
 const HeroComponent = () => {
     return (
         <div>
@@ -12,15 +24,9 @@ const HeroComponent = () => {
                     <h1>SIMPLE.<br/>USEFUL.<br/>MULTIPURPOSE.</h1>
                 </div>
                 <div className="buttons-container">
-                    <div className="btn btn-blue-1">🔒 SECURITY</div>
-                    <div className="btn btn-blue-4">✨ FUN</div>
-                    <div className="btn btn-blue-7">🌐 OPEN SOURCE</div>
-                    <div className="btn btn-blue-2">💹 ECONOMY</div>
-                    <div className="btn btn-blue-5">🚀 XP SYSTEM</div>
-                    <div className="btn btn-blue-8">🤖 AI POWERED</div>
-                    <div className="btn btn-blue-3">📊 ANALYTICS</div>
-                    <div className="btn btn-blue-6">🎮 LOUNGES</div>
-                    <div className="btn btn-blue-9">✅ SUPPORTED</div>
+                    {buttons.map((button) => (
+                        <div key={button.id} className={`btn ${button.color}`}>{button.text}</div>
+                    ))}
                 </div>
             </div>
             <div style={{gap: '6em'}} className="main-container">
